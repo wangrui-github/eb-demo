@@ -1,0 +1,15 @@
+{
+    "name": "eb-cloudant-demo",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "body-parser": "1.15.2",
+        "cloudant": "^1.10.0-NOTICE",
+        "express": "4.13.x"
+    },
+    "engines": {
+        "node": "4.x"
+    }
+}

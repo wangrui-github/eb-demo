@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: eb-cloudant-demo
+  host: eb-cloudant-demo
+  disk_quota: 128M
+  env:
+    DB_ACCOUNT: 1e2e04f7-b3ed-4701-a1e4-49dfa388d2bc-bluemix
+    DB_USER: therbeendeseeterstrourra
+    DB_PASS: 3064cf798370d777c46d9c50146273bd256937fd
