@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: eb-hello
+  host: eb-hello
+  disk_quota: 128M

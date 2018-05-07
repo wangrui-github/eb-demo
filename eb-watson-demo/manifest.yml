@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: eb-watson-demo
+  host: eb-watson-demo
+  disk_quota: 128M
+  env:
+    USER: e2917218-7b6e-4a92-81c8-bba41cc19650
+    PASS: KgCi3rUeiWsU
+    WORKSPACE: 2aa2edb9-99e2-4676-89ee-4b964a8f83e0
